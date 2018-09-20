@@ -3,7 +3,7 @@ Bitballoon Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/bitballoon-project/bitballoon.svg?branch=master)](https://travis-ci.org/bitballoon-project/bitballoon)
 
-https://bitballoon.org
+https://bitballoon.net
 
 What is Bitballoon?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Bitballoon Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Bitballoon Core software, see [https://bitballoon.org](https://bitballoon.org).
+the Bitballoon Core software, see [https://bitballoon.net](https://bitballoon.net).
 
 License
 -------
@@ -36,7 +36,6 @@ The developer [mailing list](https://groups.google.com/forum/#!forum/bitballoon-
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #bitballoon-dev.
 
 Testing
 -------
