@@ -207,8 +207,8 @@ public:
 
         genesis = CreateGenesisBlock(1486949366, 293345, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x413dca99d6d521f7731060504ad6a27623c81a51190f0d4c98fe7b588b05c966"));
+        assert(genesis.hashMerkleRoot == uint256S("0x07116da89bd088873b4be89142fbe44d69ffaba8b6a1dc565f53680bd3bcffd8"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -232,15 +232,15 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-                {2056, uint256S("17748a31ba97afdc9a4f86837a39d287e3e7c7290a08a1d816c5969c78a83289")},
+                {0, uint256S("413dca99d6d521f7731060504ad6a27623c81a51190f0d4c98fe7b588b05c966")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data as of block a0afbded94d4be233e191525dc2d467af5c7eab3143c852c3cd549831022aad6 (height 343833)
-            1516406749,
-            794057,
-            0.01
+            0,
+            0,
+            0.00
         };
 
     }
